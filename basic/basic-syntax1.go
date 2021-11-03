@@ -1,17 +1,14 @@
-package main
+package basic
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // date : 21.10.15
 
-func main() {
-	forLoopV2(getIntArray())
-}
-
-func getVariables() (string, string) {
-	var name string = "안녕1"
-	name2 := "안녕2"
-	return name, name2
+func getVariables() string {
+	name := "안녕"
+	return name
 }
 
 func getNakedReturns() (a1 string, a2 string) {
